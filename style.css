@@ -32,7 +32,7 @@ a{
 }
 .header .hero_content{
     background: linear-gradient(to left top,#a34ffe,#9448fd,#8440fc,#713afc,#5a34fb);
-    padding: 20px 0;
+    padding: 20px 4px;
     position: fixed;
     top: 0;
     left: 0;
@@ -54,11 +54,11 @@ a{
     display: flex;
     align-items: center;
     position: fixed;
-    top: 9%;
+    top: 8%;
     left: 0;
     width: 100%;
     z-index: 9999;
-    padding: 5px 40px;
+    padding: 10px 40px;
     background-color: #fff;
     border-bottom: 4px solid #ffedd1;
 }
@@ -106,6 +106,13 @@ a{
     font-weight: 500;
     margin-right: 5px;
 }
+.header_menu .header_btn2{
+    display: none;
+}
+.header_menu .header_btn2 a img{
+    width: 35px;
+    margin-right: 10px;
+}
 .header_menu .header_btn a:nth-child(2){
     background: linear-gradient(to left top,#a34ffe,#9448fd,#8440fc,#713afc,#5a34fb);
     color: #fff;
@@ -116,7 +123,27 @@ a{
 .header_menu .header_btn a:nth-child(2):hover{
     box-shadow: 4px 4px 0px #f8cc3b;
 }
-
+.bar_icon{
+    position: relative;
+    width: 10%;
+    text-align: right;
+    display: none;
+}
+.bar_icon i{
+    position: absolute;
+    top: -18px;
+    font-size: 25px;
+    padding: 8px;
+    right: 20px;
+    color: orange;
+    padding: 8px 12px;
+    background-color: #f8d69f;
+}
+.bar_icon i:nth-child(2){
+    padding: 8px 15px;
+    opacity: 0;
+    visibility: hidden;
+}
 /* ==============Banner Section style here ============*/
 .banner{
     margin-top: 145px;
@@ -133,10 +160,11 @@ a{
     margin-bottom: 32px;
     font-size: 40px;
     line-height: 66px;
-    color: #4c3b17;
+    color: #323F52;
 }
 .banner_content p{
     font-size: 16px;
+    color: #515151;
     line-height: 32px;
     width: 75%;
 }
@@ -201,9 +229,6 @@ a{
     display: block;
     margin-left: auto;
 }
-.banner_content_image .moon_img img{
-    width: 300px;
-}
 /* ==============Banner Section style end here ============*/
 
 /* ==============How to buy Section style start here ============*/
@@ -245,7 +270,7 @@ a{
     color: #4c3b17;
 }
 .buy_content h4{
-    color: orange;
+    color: #f6A429;
     margin-bottom: 20px;
     letter-spacing: 1.5px;
 }
@@ -308,13 +333,14 @@ a{
     background-color: #fff;
 }
 .service_content_item{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 3%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     height: 100%;
 }
 .service{
     overflow: hidden;
+    width: 31%;
 }
 .service .service_img{
     padding: 60px 40px;
@@ -362,7 +388,7 @@ a{
     color: #717171;
 }
 .service_content p strong{
-    color: orange;
+    color: #f6A429;
 }
 .service_content p small{
     color: #717171 !important;
@@ -391,7 +417,7 @@ a{
 }
 .article_section h4{
     text-align: center;
-    color: orange;
+    color: #f6A429;
     letter-spacing: 1.5px;
 }
 .article_section h1{
@@ -455,8 +481,8 @@ a{
     padding: 50px 0;
 }
 .quick_start_section h1{
-    font-size: 48px;
-    color: #4c3b17;
+    font-size: 38px;
+    color: #323F52;
 }
 .guid_section{
     padding: 70px;
@@ -487,6 +513,7 @@ a{
     position: relative;
     margin-top: 20px;
     margin-bottom: 20px;
+    color: #323F52;
 }
 .quick_guid p{
     font-size: 18px;
@@ -587,7 +614,7 @@ a{
     text-align: center;
 }
 .follow h4{
-    color: orange;
+    color: #f6A429;
     margin-top: 50px;
     font-size: 16px;
 }
@@ -626,7 +653,7 @@ a{
     line-height: 30px;
 }
 .slider_section p strong{
-    color: orange;
+    color: #f6A429;
 }
 .slider_content{
     margin-top: 100px;
@@ -659,3 +686,239 @@ a{
 } */
 
 /* ==============slider Section style end here ============*/
+
+/* ==============carency Section style start here ============*/
+
+.carency_section{
+    background-color: #fff;
+    padding: 100px 0;
+}
+.carency_content_item{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 4%;
+}
+.carency_content h4{
+    font-size: 16px;
+    color: #f6A429;
+    margin-bottom: 20px;
+    margin-top: 200px;
+}
+.carency_content h1{
+    color: #323F52;
+    font-weight: normal;
+    font-size: 34px;
+}
+.carency_content p{
+    margin-top: 20px;
+    color: #717171;
+    line-height: 30px;
+    font-size: 19px;
+}
+.carency_content p strong{
+    color: #f6A429;
+}
+
+.card_item{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 4%;
+    grid-row-gap: 4%;
+}
+.card_item .card_1{
+    padding: 20px 24px;
+    background: linear-gradient(to left top,#a34ffe,#9448fd,#8440fc,#713afc,#5a34fb); 
+    border-radius: 5px;  
+}
+
+.card_item .card_1:hover{
+    box-shadow: 4px 4px 0px #f6A429;
+}
+.card_item .card_1 h3{
+    color: #fff;
+    font-size: 19px;
+    font-weight: normal;
+}
+.card_item .card_1 h4{
+    color: #fff;
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 5px;
+}
+
+.card_item .card_2{
+    padding: 20px 24px;
+    background: linear-gradient(to right top,#ffea51,#ffcb46,#ffb65f);
+    border-radius: 5px;  
+}
+
+.card_item .card_2:hover{
+    box-shadow: 4px 4px 0px #713afc;
+}
+.card_item .card_2 h3{
+    color: #000000B3;
+    font-size: 19px;
+    font-weight: normal;
+}
+.card_item .card_2 h4{
+    color: #000000B3;
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 5px;
+}
+.full_card{
+    margin-top: 100px;
+}
+.full_card .card_3{
+    background: linear-gradient(to right top,#ffea51,#ffcb46,#ffb65f);
+    padding: 20px 24px;
+    border-radius: 5px;
+}
+.full_card .card_3:hover{
+    box-shadow: 4px 4px 0px #713afc;
+}
+.full_card .card_3 h3{
+    color: #000000B3;
+    font-size: 19px;
+    font-weight: normal;
+}
+.full_card .card_3 h4{
+    color: #000000B3;
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 5px;
+}
+.full_card .card_4{
+    background: linear-gradient(to left top,#a34ffe,#9448fd,#8440fc,#713afc,#5a34fb); 
+    padding: 20px 24px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.full_card .card_4 h3{
+    color: #fff;
+    font-size: 19px;
+    font-weight: normal;
+}
+.full_card .card_4 h4{
+    color: #fff;
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 5px;
+}
+.full_card .card_4:hover{
+    box-shadow: 4px 4px 0px #f6A429;
+}
+/* ==============carency Section style end here ============*/
+
+/* ==============Team Section style start here ============*/
+.team_section{
+    padding: 50px 0;
+    background-color: #fff;
+}
+.team_section h4{
+    font-size: 16px;
+    text-align: center;
+    color: #F6A429;
+    margin-bottom: 10px;
+}
+.team_section h1{
+    font-size: 34px;
+    color: #000000B3;
+    font-weight: normal;
+    text-align: center;
+}
+.team_section p{
+    text-align: center;
+    color: #717171;
+    font-size: 19px;
+    width: 82%;
+    margin: 20px auto;
+    line-height: 30px;
+}
+
+.team_content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 4%;
+    width: 70%;
+    margin: auto;
+}
+.team_image{
+    text-align: center;
+    margin-top: 40px;
+}
+.team_image img{
+    width: 200px;
+    display: block;
+    margin: auto;
+    border: 10px solid #8440fc;
+    border-radius: 50%;
+    height: 200px;
+}
+.team_1{
+    background-color: #ffedd1;
+}
+.team_image h3{
+    font-size: 19.2px;
+    color: #323F52;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.team_image h5{
+    margin-top: 10px;
+    font-size: 15.2px;
+    color: #713afc;
+    font-weight: normal;
+}
+.team_image i{
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #53b5db;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+}
+.team_section button{
+    display: block;
+    margin: 70px auto;
+    padding: 15px;
+    background: linear-gradient(to left top,#a34ffe,#9448fd,#8440fc,#713afc,#5a34fb); 
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.team_section button:hover{
+    box-shadow: 4px 4px 0px #F6A429;
+}
+.team_image .toltip{
+    position: relative;
+    margin-top: 10px;
+    opacity: 0;
+    visibility: hidden;
+}
+.team_image .toltip span{
+    background-color: #000000;
+    color: #fff;
+    display: block;
+    width: 25%;
+    margin: 10px auto;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.team_image .toltip i{
+    padding: 0;
+    background-color: transparent;
+    color: #000;
+    position: absolute;
+    top: -25px;
+    font-size: 20px;
+    left: 175px;
+
+}
+
+/* ==============Team Section style end here ============*/

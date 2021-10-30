@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Helga Inu | Inspired by Alone Mask</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css" integrity="sha512-X/RSQYxFb/tvuz6aNRTfKXDnQzmnzoawgEQ4X8nZNftzs8KFFH23p/BA6D2k0QCM4R0sY1DEy9MIY9b3fwi+bg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css" integrity="sha512-f28cvdA4Bq3dC9X9wNmSx21rjWI+5piIW/uoc2LuQ67asKxfQjUow2MkcCNcfJiaLrHcGbed1wzYe3dlY4w9gA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -22,15 +24,15 @@
             <div class="logo">
                 <img src="Image/helgainu.png" alt="image" />
             </div>
-            <div class="menu">
+            <div class="menu" id="menu">
                 <nav>
-                    <ul>
-                        <li><a class="active" href="#">Home</a></li>
-                        <li><a href="#">Buy</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Roadmap</a></li>
-                        <li><a href="#">Team</a></li>
-                        <li><a href="#">FAQ</a></li>
+                    <ul id="scroll_nav">
+                        <li><a class="active" href="#home">Home</a></li>
+                        <li><a href="#buy">Buy</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#roadmap">Roadmap</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#faq">FAQ</a></li>
                         <li><a href="#">Careers</a></li>
                         <li><a href="#">NFT Portal</a></li>
                         <li><a href="#">Whitepaper</a></li>
@@ -41,11 +43,19 @@
                 <a href="#">Buy on Pancack Swap</a>
                 <a href="#">Buy on Uniswap</a>
             </div>
+            <div class="header_btn2">
+                <a href="#"><img src="Image/pancakeswap-logo.png" alt="" /></a>
+                <a href="#"><img src="Image/uniswap-logo.png" alt=""/></a>
+            </div>
+            <div class="bar_icon">
+                <i id="barIcon" class="fa fa-bars"></i>
+                <i id="timesIcon" class="fa fa-times"></i>
+            </div>
         </div>
     </header>
     <!---------- Header Part end here ------------------>
     <!---------- banner Part start here ------------------>
-    <section class="banner">
+    <section class="banner" id="home">
         <div class="container_fluid">
             <div class="banner_content_item">
                 <div class="banner_content">
@@ -64,10 +74,10 @@
     </section>
     <!---------- banner Part end here ------------------>
     <!------------- How To Buy Section start here------------->
-    <section class="how_to_buy">
+    <section class="how_to_buy" id="buy">
         <div class="container">
             <div class="how_to_buy_content_item">
-                <div class="buy_image">
+                <div class="buy_image" data-aos="fade-right" data-aos-duration="1000">
                     <img src="Image/how-to.png" alt="image" />
                     <div class="youtube_icon">
                         <div class="youtube_link">
@@ -80,14 +90,14 @@
                 </div>
                 <div class="buy_content">
                     <h4>BUY</h4>
-                    <h2>How To Buy HelgaInu</h2>
+                    <h2 data-aos="fade-up" data-aos-duration="1000">How To Buy HelgaInu</h2>
                     <p>Buying $FLOKI is easy. We've created this YouTube tutorial to show you how to buy $FLOKI from start to finish.</p>
                     <h3>You can buy Floki Inu on both PancakeSwap and Uniswap.</h3>
                     <p style="color: orange;">Please set slippage to 4 - 5%.</p>
                     <div class="buy_btn">
-                        <a href="#">Buy on Pancack Swap</a>
-                        <a href="#">Buy on Uniswap</a>
-                        <a href="#">Buy on Gate.io</a>
+                        <a data-aos="fade-up" data-aos-duration="500" href="#">Buy on Pancack Swap</a>
+                        <a data-aos="fade-right" data-aos-duration="500" href="#">Buy on Uniswap</a>
+                        <a data-aos="fade" data-aos-duration="500" data-aos-delay="500" href="#">Buy on Gate.io</a>
                     </div>
                 </div>
             </div>
@@ -100,7 +110,7 @@
     <section class="service_section">
         <div class="container_fluid">
             <div class="service_content_item">
-                <div class="service">
+                <div class="service" data-aos="fade-right" data-aos-duration="1000">
                     <div class="service_img">
                         <img src="Image/shiba_coin-1.png" alt="image" />
                     </div>
@@ -114,7 +124,7 @@
                         <button>Buy HELGAINU</button>
                     </div>
                 </div>
-                <div class="service">
+                <div class="service" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
                     <div class="service_img">
                         <img src="Image/leash_coin-1.png" alt="image" />
                     </div>
@@ -128,7 +138,7 @@
                         <button>Buy LEASH</button>
                     </div>
                 </div>
-                <div class="service">
+                <div class="service"data-aos="fade" data-aos-duration="1000" data-aos-delay="150">
                     <div class="service_img">
                         <img src="Image/shiba_coin-1.png" alt="image" />
                     </div>
@@ -148,43 +158,43 @@
     <!------------- Service Section end here------------->
 
     <!------------- Article Section start here------------->
-    <section class="article_section">
+    <section class="article_section" id="blog">
         <div class="container">
             <div class="article_content">
-                <h4>ARTICLES</h4>
-                <h1>Helga Inu in the News!</h1> 
-                <p>The FLOKI token has been featured in well-known online publications such as: Forbes Magazine, Yahoo Finance, and much more! We are in talks with other media publications which will bring further attention to the project.</p>
+                <h4 data-aos="fade-up" data-aos-duration="1000">ARTICLES</h4>
+                <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">Helga Inu in the News!</h1> 
+                <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">The FLOKI token has been featured in well-known online publications such as: Forbes Magazine, Yahoo Finance, and much more! We are in talks with other media publications which will bring further attention to the project.</p>
             </div>
             <div class="article_logo_section">
-                <div class="article_logo_img">
+                <div class="article_logo_img" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
                     <img src="Image/CMCLogo.png" alt="image" />
                     <a href="#">Read Latest News</a>
                 </div>
-                <div class="article_logo_img2">
+                <div class="article_logo_img2" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                     <img src="Image/ForbesLogo.png" alt="image" />
                     <a href="#">Read News</a>
                 </div>
-                <div class="article_logo_img2">
+                <div class="article_logo_img2" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                     <img src="Image/CryptoSlateLogo.png" alt="image" />
                     <a href="#">Read News</a>
                 </div>
-                <div class="article_logo_img2">
+                <div class="article_logo_img2" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
                     <img src="Image/TechTimesLogo.png" alt="image" />
                     <a href="#">Read News</a>
                 </div>
-                <div class="article_logo_img2">
+                <div class="article_logo_img2" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
                     <img src="Image/YahooFinanceLogo.png" alt="image" />
                     <a href="#">Read News</a>
                 </div>
-                <div class="article_logo_img2">
+                <div class="article_logo_img2" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
                     <img src="Image/ForbesLogo.png" alt="image" />
                     <a href="#">Read News</a>
                 </div>
-                <div class="article_logo_img2">
+                <div class="article_logo_img2" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
                     <img src="Image/AZCoinNews.png" alt="image" />
                     <a href="#">Read News</a>
                 </div>
-                <div class="article_logo_img2">
+                <div class="article_logo_img2" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
                     <img src="Image/UTodayLogo.png" alt="image" />
                     <a href="#">Read News</a>
                 </div>
@@ -194,7 +204,7 @@
     <!------------- Article Section end here------------->
 
     <!------------- quick start Section start here------------->
-    <section class="quick_start_section">
+    <section class="quick_start_section" id="roadmap">
         <div class="container_fluid">
             <h1>Quick Start Guide</h1>
             <div class="guid_section">
@@ -240,10 +250,10 @@
     <!------------- quick start Section end here------------->
 
     <!------------- follow_sectionState Section start here------------->
-    <section class="follow_section">
+    <section class="follow_section" id="faq">
         <div class="container-fluid">
             <div class="follow_content">
-                <div class="folow_social_counter">
+                <div class="folow_social_counter" data-aos="fade-right" data-aos-duration="1000">
                     <div class="social_icon_content">
                         <div class="social_1">
                             <h3>200,000 +</h3>
@@ -261,9 +271,9 @@
                     </div>
                 </div>
                 <div class="follow">
-                    <h4>METRICS</h4>
-                    <h3>Helga Inu Stats</h3>
-                    <p>Floki Inu is a viral movement. Take a look at how the movement is growing with these Floki statistics!</p>
+                    <h4 data-aos="fade-up" data-aos-duration="1000">METRICS</h4>
+                    <h3 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">Helga Inu Stats</h3>
+                    <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">Floki Inu is a viral movement. Take a look at how the movement is growing with these Floki statistics!</p>
                 </div>
             </div>
         </div>
@@ -275,8 +285,8 @@
     <!------------- Slider  Section start here------------->
     <section class="slider_section">
         <div class="container-fluid">
-            <h1>Art</h1>
-            <p>We are proud to support ingenuity in all its forms with the <strong>Helga Inu Incubator.</strong> The ShibArmy
+            <h1 data-aos="fade-up" data-aos-duration="1000">Art</h1>
+            <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">We are proud to support ingenuity in all its forms with the <strong>Helga Inu Incubator.</strong> The ShibArmy
             is made up of talented individuals who have united to build something remarkable, and we support this by cultivating 
             an environment which encourages creativity and growth. Through the power of the Shiba Inu Incubator, we help holders 
             find the tools they need to bring their inspiration and unique perspectives to life. This as just another way to encourage
@@ -326,6 +336,109 @@
 
     <!------------- Slider  Section end here------------->
 
+    <!------------- carency  Section start here------------->
+    <section class="carency_section">
+        <div class="container">
+            <div class="carency_content_item">
+                <div class="carency_content">
+                    <h4 data-aos="fade-up" data-aos-duration="1000">STATISTICS</h4>
+                    <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">Helga Inu Coin Statistics</h1>
+                    <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Floki Inu has a total circulating supply of <strong>9.23T $FLOKI</strong> across the ETH & BSC chain combined and has a total circulating market cap of <strong>$2.34B</strong> across the ETH and BSC chains. See full breakdown for more info.</p>
+                </div>
+                <div class="ccarency_card">
+                    <div class="card_item">
+                        <div class="card_1" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100">
+                            <h3>10,000,000,000,000</h3>
+                            <h4>ETH Total Supply</h4>
+                        </div>
+                        <div class="card_2" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                            <h3>10,000,000,000,000</h3>
+                            <h4>BSC Total Supply</h4>
+                        </div>
+                        <div class="card_1" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
+                            <h3>886,420,485,822.12</h3>
+                            <h4>ETH Bridge</h4>
+                        </div>
+                        <div class="card_2" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                            <h3>4,852,373,809,948.002</h3>
+                            <h4>BSC Bridge</h4>
+                        </div>
+                        <div class="card_1" data-aos="fade" data-aos-duration="1000" data-aos-delay="300">
+                            <h3>1,440,985,765,928.811</h3>
+                            <h4>ETH Burned</h4>
+                        </div>
+                        <div class="card_2" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                            <h3>3,506,965,676,032.273</h3>
+                            <h4>BSC Burned</h4>
+                        </div>
+                        <div class="card_1" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
+                            <h3>41,898,013,308.532</h3>
+                            <h4>ETH LP</h4>
+                        </div>
+                        <div class="card_2" data-aos="fade" data-aos-duration="1000" data-aos-delay="300">
+                            <h3>39,842,621,127.708</h3>
+                            <h4>BSC LP</h4>
+                        </div>
+                        <div class="card_1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                            <h3>7,630,695,734,940.536</h3>
+                            <h4>ETH Circulating</h4>
+                        </div>
+                        <div class="card_2" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
+                            <h3>1,600,817,892,892.016</h3>
+                            <h4>BSC Circulating</h4>
+                        </div>
+                    </div>
+                    <div class="full_card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                        <div class="card_3">
+                            <h3>9,231,513,627,832.553</h3>
+                            <h4>Total Circulating</h4>
+                        </div>
+                        <div class="card_4" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
+                            <h3>$2,339,954,891.57</h3>
+                            <h4>Combined Market Cap</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------------- carency  Section end here------------->
+
+    <!------------- Team  Section start here------------->
+    <section class="team_section" id="team">
+        <div class="container">
+            <h4 data-aos="fade-in" data-aos-duration="3000">TEAM</h4>
+            <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">Helga Inu Space Crew</h1>
+            <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Helga Inu has a top team of space engineers and crypto influencers working hard to send this puppy to space. All supported by the loving Floki Inu community.</p>
+
+            <div class="team_content">
+                <div class="team_image" data-aos="fade-right" data-aos-duration="1000">
+                    <img class="team_1" src="Image/helgainu.png" alt="image" />
+                    <h3>Helga Inu</h3>
+                    <h5>Hero</h5>
+                    <i id="toltip" class="fab fa-twitter"></i>
+                    <div class="toltip">
+                        <span>RealHelgaInu</span>
+                        <i class="fas fa-sort-up"></i>
+                    </div>
+                </div>
+                <div class="team_image" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                    <img src="Image/vikings.png" alt="image" />
+                    <h3>The Helga Vikings</h3>
+                    <h5>Community</h5>
+                    <i id="toltip1" class="fab fa-twitter"></i>
+                    <div class="toltip" id="toltip2">
+                        <span>RealHelgaInu</span>
+                        <i class="fas fa-sort-up"></i>
+                    </div>
+                </div>
+            </div>
+            <button data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">Hall Of Fame</button>
+        </div>
+    </section>
+    <!------------- Team  Section end here------------->
+
 
 
 
@@ -333,13 +446,30 @@
     <!----------------------js Link----------------------->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js" integrity="sha512-9CWGXFSJ+/X0LWzSRCZFsOPhSfm6jbnL+Mpqo0o8Ke2SYr8rCTqb4/wGm+9n13HtDE1NQpAEOrMecDZw4FXQGg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/index.js"></script>
     <script>
+        //animation on scroll
+        AOS.init();
+
+        //slider function
         $(document).ready(function () {
+            //smooth scroll
+            $('#scroll_nav').onePageNav();
+
             $('.slider').owlCarousel({
                 margin: 0,
                 nav:true,
+                responsiveClass:true,
+                responsive: {
+                  768:{
+                        items: 3,
+                    }
+                }
             });
         });
+        
     </script>
 </body>
 
