@@ -54,11 +54,11 @@ a{
     display: flex;
     align-items: center;
     position: fixed;
-    top: 8%;
+    top: 5%;
     left: 0;
     width: 100%;
     z-index: 9999;
-    padding: 10px 40px;
+    padding: 30px 40px 5px 40px;
     background-color: #fff;
     border-bottom: 4px solid #ffedd1;
 }
@@ -170,6 +170,9 @@ a{
 }
 .banner_btn a{
     overflow: hidden;
+}
+.banner_btn a:focus{
+    outline: none;
 }
 .banner_content .banner_btn a:nth-child(1){
     display: inline-block;

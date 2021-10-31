@@ -22,6 +22,9 @@
     .buy_image .youtube_link{
         width: 55%;
     }
+    .team_image .toltip i{
+        left: 160px;
+    }
 }
 @media (max-width: 1230px){
     .header_menu .menu{
@@ -101,6 +104,9 @@
         font-size: 16px;
         width: 100%;
     }
+    .team_image .toltip i{
+        left: 155px;
+    }
     
 }
 @media (max-width: 1175px){
@@ -126,6 +132,9 @@
     }
     .service .service_content{
         padding: 20px;
+    }
+    .team_image .toltip i{
+        left: 150px;
     }
 }
 @media (max-width: 1100px){
@@ -178,6 +187,12 @@
     .quick_guid h3::before{
         left: -80px;
     }
+    .team_image .toltip span{
+        width: 30%;
+    }
+    .team_image .toltip i{
+        left: 140px;
+    }
 
 }
 @media (max-width: 1050px){
@@ -188,7 +203,7 @@
 
 @media (max-width: 1024px){
     .header_menu{
-        padding: 10px 40px;
+        padding: 30px 40px 5px 40px;
     }
     .header_menu .menu{
         width: 100%;
@@ -234,6 +249,12 @@
         margin-top: 20px;
         width: 40%;
         text-align: right;
+    }
+    .team_image .toltip span{
+        width: 35%;
+    }
+    .team_image .toltip i{
+        left: 130px;
     }
 }
 @media (max-width: 992px){
@@ -336,10 +357,19 @@
     .team_content{
         width: 100%;
     }
+    .team_image .toltip span{
+        width: 25%;
+    }
+    .team_image .toltip i{
+        left: 185px;
+    }
 }
 @media (max-width: 920px){
     .buy_image .youtube_link{
         width: 72%;
+    }
+    .team_image .toltip i{
+        left: 170px;
     }
 }
 @media (max-width: 875px){
@@ -372,6 +402,12 @@
         left: -70px;
         width: 90px;
     }
+    .team_image .toltip span{
+        width: 28%;
+    }
+    .team_image .toltip i{
+        left: 160px;
+    }
 }
 @media (max-width: 820px) {
     .buy_content .buy_btn a:nth-child(1){
@@ -396,6 +432,9 @@
     }
     .banner_content p{
         font-size: 10px; 
+    }
+    .team_image .toltip i{
+        left: 147px;
     }
 }
 @media (max-width: 768px){
@@ -546,6 +585,12 @@
     .slider_img img{
         height: 230px;
     }
+    .team_image .toltip span{
+        width: 15%;
+    }
+    .team_image .toltip i{
+        left: 295px;
+    }
 }
 @media (max-width: 720px){
     .buy_image .youtube_link{
@@ -554,10 +599,24 @@
     .buy_image img{
         width: 65%;
     }
+    .team_image .toltip i{
+        left: 275px;
+    }
 }
 @media (max-width: 675px){
     .buy_image .youtube_link{
         width: 50%;
+    }
+    .team_image .toltip i{
+        left: 260px;
+    }
+}
+@media (max-width: 650px){
+    .team_image .toltip span{
+        width: 20%;
+    }
+    .team_image .toltip i{
+        left: 250px;
     }
 }
 @media (max-width: 600px){
@@ -566,6 +625,9 @@
     }
     .buy_image img{
         width: 75%;
+    }
+    .team_image .toltip i{
+        left: 230px;
     }
 }
 @media (max-width: 575px){
@@ -579,7 +641,7 @@
        width: 20%;
     }
     .header_menu{
-        padding: 10px 30px;
+        padding: 25px 30px 8px 30px;
     }
     .bar_icon i{
         font-size: 20px;
@@ -606,10 +668,16 @@
         font-size: 18px;
         margin-top: 40px;
     }
+    .team_image .toltip i{
+        left: 220px;
+    }
 }
 @media (max-width: 545px){
     .buy_image .youtube_link{
         width: 60%;
+    }
+    .team_image .toltip i{
+        left: 200px;
     }
 }
 @media (max-width: 500px){
@@ -618,6 +686,12 @@
     }
     .buy_image img{
         width: 85%;
+    }
+    .team_image .toltip span{
+        width: 25%;
+    }
+    .team_image .toltip i{
+        left: 185px;
     }
 }
 @media (max-width: 475px){
@@ -678,6 +752,9 @@
     .slider_section h1{
         font-size: 36px;
     }
+    .team_image .toltip i{
+        left: 170px;
+    }
 }
 @media (max-width: 425px){
     .header_menu .logo{
@@ -690,7 +767,7 @@
        width: 25%;
     }
     .header_menu{
-        padding: 10px 30px;
+        padding: 20px 30px 8px 30px;
     }
     .header_menu .logo img{
         height: 60px;
@@ -719,6 +796,7 @@
         display: block;
         width: 100%;
         margin-bottom: 20px;
+        text-align: center;
     }
     .buy_content .buy_btn a:nth-child(3){
         margin-top: 0px;
@@ -741,6 +819,9 @@
     .slider_section p{
         font-size: 14px;
         line-height: 25px;
+    }
+    .team_image .toltip i{
+        left: 160px;
     }
 
 }
@@ -770,6 +851,12 @@
     .quick_guid p{
         font-size: 16px;
         line-height: 25px;
+    }
+    .team_image .toltip i{
+        left: 150px;
+    }
+    .team_image .toltip span{
+        width: 28%;
     }
 }
 @media (max-width: 375px){
@@ -804,16 +891,25 @@
     .team_section p{
         font-size: 14px;
     }
+    .team_image .toltip i{
+        left: 135px;
+    }
 }
 @media (max-width: 362px){
     .banner_btn {
         text-align: center;
     }
     .header_menu{
-        padding: 5px 20px;
+        padding: 25px 20px 8px 20px;
     }
     .buy_image .youtube_link{
         width: 91%;
+    }
+    .team_image .toltip span{
+        width: 30%;
+    }
+    .team_image .toltip i{
+        left: 135px;
     }
 }
 @media (max-width: 330px){
@@ -828,6 +924,12 @@
      }
      .buy_image .youtube_link{
         width: 100%;
+    }
+    .team_image .toltip i{
+        left: 125px;
+    }
+    .team_image .toltip span{
+        width: 32%;
     }
 }
 

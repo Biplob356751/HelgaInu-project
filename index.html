@@ -22,7 +22,7 @@
         </div>
         <div class="header_menu">
             <div class="logo">
-                <img src="Image/helgainu.png" alt="image" />
+                <a href="#"><img src="Image/helgainu.png" alt="image" /></a>
             </div>
             <div class="menu" id="menu">
                 <nav>
@@ -455,19 +455,16 @@
 
         //slider function
         $(document).ready(function () {
-            //smooth scroll
-            $('#scroll_nav').onePageNav();
 
             $('.slider').owlCarousel({
                 margin: 0,
                 nav:true,
-                responsiveClass:true,
-                responsive: {
-                  768:{
-                        items: 3,
-                    }
-                }
             });
+
+            //smooth scroll
+            $('#scroll_nav').onePageNav();
+
+            
         });
         
     </script>
