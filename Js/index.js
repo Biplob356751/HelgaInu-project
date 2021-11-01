@@ -21,27 +21,4 @@ timesIcon.addEventListener('click', function(){
     barIcon.style.visibility = 'visible';
     timesIcon.style.opacity = '0';
     timesIcon.style.visibility = 'hidden'
-})
-
-
-// toltip function
-const toltip = document.querySelector('#toltip');
-const tol = document.querySelector('.toltip');
-const toltip1 = document.querySelector('#toltip1');
-const toltip2 = document.querySelector('#toltip2');
-toltip.addEventListener('mouseenter', function(){
-    tol.style.opacity = '1';
-    tol.style.visibility = 'visible';
-});
-toltip.addEventListener('mouseleave', function(){
-    tol.style.opacity = '0';
-    tol.style.visibility = 'hiden';
-});
-toltip1.addEventListener('mouseenter', function(){
-    toltip2.style.opacity = '1';
-    toltip2.style.visibility = 'visible';
-});
-toltip1.addEventListener('mouseleave', function(){
-    toltip2.style.opacity = '0';
-    toltip2.style.visibility = 'hiden';
 });
