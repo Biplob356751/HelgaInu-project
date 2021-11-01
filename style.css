@@ -196,15 +196,6 @@ a{
     width: 100%;
     
 }
-.banner_content_image{
-    position: relative;
-    margin-top: 30px;
-}
-.banner_content_image img{
-    max-width: 100%;
-    display: block;
-    margin-left: auto;
-}
 /* ==============Banner Section style end here ============*/
 
 /* ==============special Section style start here ============*/
@@ -283,17 +274,6 @@ a{
 .service{
     overflow: hidden;
     width: 31%;
-}
-.service .service_img{
-    padding: 60px 40px;
-    border: 1px solid #eee;
-    border-radius: 10px 10px 0 0;
-    border-bottom: none;
-}
-.service .service_img img{
-    display: block;
-    margin: auto;
-    height: 150px;
 }
 .service .service_content{
     padding: 30px;
