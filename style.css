@@ -79,8 +79,8 @@ a{
 .header_menu .header_btn a{
     background: linear-gradient(to right top,#ffea51,#ffcb46,#ffb65f);
     color: #4c3b17;
-    padding: 10px;
-    border-radius: 4px;
+    padding: 13px;
+    border-radius: 50px;
     border: none;
     font-size: 16px;
     font-weight: 500;
@@ -96,12 +96,6 @@ a{
 .header_menu .header_btn a:nth-child(2){
     background: linear-gradient(to left top,#a34ffe,#9448fd,#8440fc,#713afc,#5a34fb);
     color: #fff;
-}
-.header_menu .header_btn a:nth-child(1):hover{
-    box-shadow: 4px 4px 0px #a34ffe;
-}
-.header_menu .header_btn a:nth-child(2):hover{
-    box-shadow: 4px 4px 0px #f8cc3b;
 }
 .bar_icon{
     position: relative;
@@ -304,7 +298,7 @@ a{
 .service .service_content{
     padding: 30px;
     background-color: #ffedd1;
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 5px;
 }
 .service_content_title{
     display: flex;
@@ -394,7 +388,7 @@ a{
 }
 .guid_content_item{
     display: grid;
-    grid-template-columns: 20% 75%;
+    grid-template-columns: 15% 75%;
     grid-column-gap: 3%;
     border-bottom: 1px solid #f8d69f;
     padding-bottom: 50px;
@@ -404,11 +398,11 @@ a{
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background-color: #f7dbaf;
-    color: #717171;
     text-align: center;
-    line-height: 80px;
-    font-size: 30px;
+}
+.guid_content_item .guid img{
+    width: 180px;
+    margin-top: -30px;
 }
 .quick_guid h3{
     font-size: 30px; 
@@ -422,17 +416,6 @@ a{
     line-height: 30px;
     color: #717171;
     width: 80%;
-}
-.quick_guid h3::before{
-    content: "";
-    display: block;
-    width: 110px;
-    height: 2px;
-    background-color: #713afc;
-    position: absolute;
-    top: 50%;
-    left: -90px;
-    transform: translate(-50%, -50%); 
 }
 .item1{
     border-bottom:  none;
@@ -550,28 +533,6 @@ a{
     display: block;
     margin: auto;
 }
-.youtube_icon{
-    margin-top: 40px;
-}
-.buy_image .youtube_link{
-    width: 50%;
-    margin: 10px auto;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.buy_image .youtube_link img{
-    display: inline-block;
-    width: 35px;
-    margin-left: 0;
-}
-.buy_image .youtube_link a{
-    font-size: 14px;
-    font-weight: 500;
-}
-.buy_image .youtube_link a:hover{
-    color: #4c3b17;
-}
 .buy_content h4{
     color: #f6A429;
     margin-bottom: 20px;
@@ -605,9 +566,7 @@ a{
     font-weight: 500;
     margin-right: 20px;
 }
-.buy_content .buy_btn a:hover{
-    box-shadow: 4px 4px 0px #8440fc;
-}
+
 /* ==============How to buy Section style end here ============*/
 
 /* ==============footer Section style start here ============*/

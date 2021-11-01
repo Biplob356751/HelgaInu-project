@@ -18,6 +18,14 @@
         font-size: 15px;
     }
 }
+@media (max-width: 1250px){
+    .service .service_content a{
+        padding: 8px 10px;
+        font-size: 11px;
+    }
+}
+    
+
 @media (max-width: 1230px){
     .header_menu .menu{
         width: 60%;
@@ -29,7 +37,7 @@
         font-size: 15px;
     }
     .header_menu .header_btn a{
-        font-size: 14px;
+        font-size: 13px;
     }
     .banner_content h1{
         font-size: 36px;
@@ -393,13 +401,15 @@
     .guid_content_item{
         grid-template-columns: repeat(1, 1fr);  
     }
-    .quick_guid h3::before{
-        display: none;
-    }
+    
     .guid_content_item .guid{
         width: 70px;
         height: 70px;
-        line-height: 70px;
+    }
+    .guid_content_item .guid img{
+        width: 140px;
+        display: block;
+        margin-left: -20px;
     }
     .header_menu .logo{
         width: 60%;
@@ -606,6 +616,10 @@
     .guid_content_item .guid{
         margin: auto;
     }
+    .guid_content_item .guid img{
+        display: block;
+        margin-left: -30px;
+    }
     .quick_guid h3{
         font-size: 20px; 
     }
@@ -661,9 +675,6 @@
     .service .service_content span{
         font-size: 25px;
     }
-    .why_helgaInu h1{
-        font-size: 20px;
-    }
     .why_helgaInu p{
         font-size: 13px;
         line-height: 25px;
@@ -675,28 +686,16 @@
         font-size: 14px;
         line-height: 25px;
     }
-    .feature_section h1{
-        font-size: 20px;
-    }
     .feature_section p{
         font-size: 13px;
-    }
-    .benifit_helgainu h1{
-        font-size: 20px;
     }
     .benifit_helgainu p{
         font-size: 13px;
         line-height: 25px;
     }
-    .toconomics_section h1{
-        font-size: 20px;
-    }
     .toconomics_section p{
         font-size: 13px;
         line-height: 25px;
-    }
-    .road_map_section h1{
-        font-size: 20px;
     }
     .road_map_section p{
         font-size: 13px;
@@ -716,7 +715,6 @@
     }
     .banner_content h1{
         width: 100%;
-        font-size: 20px;
     }
     .banner_content p{
         width: 100%;
@@ -726,14 +724,8 @@
     .banner_content{
         margin-top: 40px;
     }
-    .quick_start_section h1{
-        font-size: 20px;
-    }
     .quick_guid p{
         font-size: 13px;
-    }
-    .footer_section h1{
-        font-size: 20px;
     }
 
 }
@@ -765,6 +757,13 @@
     }
     .header_menu{
         padding: 0px 20px 5px 20px;
+    }
+    .quick_guid h3{
+        font-size: 18px; 
+    }
+    .service .service_content a{
+        padding: 8px;
+        font-size: 10px;
     }
 }
 @media (max-width: 330px){
